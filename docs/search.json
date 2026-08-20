@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "enough-stats-dangerous.html#what-the-fk-are-p-values",
+    "href": "enough-stats-dangerous.html#what-the-fk-are-p-values",
+    "title": "Enough stats to be dangerous",
+    "section": "What the f**k are p-values",
+    "text": "What the f**k are p-values\n\n\n\n\n\n\nTake home message\n\n\nIf it is less the 0.05 then you have found something interesting\n\n\n\nA p-value is the probability of seeing your data given there is no relationship"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#example",
+    "href": "enough-stats-dangerous.html#example",
+    "title": "Enough stats to be dangerous",
+    "section": "Example",
+    "text": "Example\nIs there a difference in weight between Rottweilers and Chihuahuas"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#example-1",
+    "href": "enough-stats-dangerous.html#example-1",
+    "title": "Enough stats to be dangerous",
+    "section": "Example",
+    "text": "Example\n\n\n\n    Welch Two Sample t-test\n\ndata:  weight by breed\nt = -117.44, df = 54.856, p-value &lt; 2.2e-16\nalternative hypothesis: true difference in means between group Chihuahua and group Rottweiler is not equal to 0\n95 percent confidence interval:\n -28.08885 -27.14621\nsample estimates:\n mean in group Chihuahua mean in group Rottweiler \n                2.099289                29.716818"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#how-confident-are-you",
+    "href": "enough-stats-dangerous.html#how-confident-are-you",
+    "title": "Enough stats to be dangerous",
+    "section": "How confident are you",
+    "text": "How confident are you\n\n\n\n\n\n\nTake home message\n\n\nThe best way to summarise data is the 95% confidence interval"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#example-2",
+    "href": "enough-stats-dangerous.html#example-2",
+    "title": "Enough stats to be dangerous",
+    "section": "Example",
+    "text": "Example\nWhat is the average weight of a Chinstrap penguin?\n\n\n\n    One Sample t-test\n\ndata:  chinstrap$body_mass_g\nt = 80.096, df = 67, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3640.059 3826.117\nsample estimates:\nmean of x \n 3733.088"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#effect-sizes",
+    "href": "enough-stats-dangerous.html#effect-sizes",
+    "title": "Enough stats to be dangerous",
+    "section": "Effect sizes",
+    "text": "Effect sizes\n\n\n\n\n\n\nTake home message\n\n\nSignificant does not mean important. Use effects sizes as well"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#bad-example",
+    "href": "enough-stats-dangerous.html#bad-example",
+    "title": "Enough stats to be dangerous",
+    "section": "Bad Example",
+    "text": "Bad Example\n\n\n\n    Welch Two Sample t-test\n\ndata:  lung_capacity by treatment\nt = 23.529, df = 1996.9, p-value &lt; 2.2e-16\nalternative hypothesis: true difference in means between group A and group B is not equal to 0\n95 percent confidence interval:\n 0.9441017 1.1157935\nsample estimates:\nmean in group A mean in group B \n       170.0138        168.9838 \n\n\nCohen's d |       95% CI\n------------------------\n1.05      | [0.96, 1.15]\n\n- Estimated using pooled SD."
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#good-example",
+    "href": "enough-stats-dangerous.html#good-example",
+    "title": "Enough stats to be dangerous",
+    "section": "Good Example",
+    "text": "Good Example\n\n\n\n    Welch Two Sample t-test\n\ndata:  lung_capacity by treatment\nt = 45.273, df = 17.247, p-value &lt; 2.2e-16\nalternative hypothesis: true difference in means between group A and group B is not equal to 0\n95 percent confidence interval:\n 18.71275 20.54004\nsample estimates:\nmean in group A mean in group B \n       169.4197        149.7933 \n\n\nCohen's d |         95% CI\n--------------------------\n20.25     | [13.63, 26.64]\n\n- Estimated using pooled SD."
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#steps",
+    "href": "enough-stats-dangerous.html#steps",
+    "title": "Enough stats to be dangerous",
+    "section": "Steps",
+    "text": "Steps\n\nDecide on an outcome and a predictor\nIdentify the type of variables:\n\ncategorical - labels\nnumeric - numbers\n\nChoose the correct test."
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#tests",
+    "href": "enough-stats-dangerous.html#tests",
+    "title": "Enough stats to be dangerous",
+    "section": "Tests",
+    "text": "Tests"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#t-test",
+    "href": "enough-stats-dangerous.html#t-test",
+    "title": "Enough stats to be dangerous",
+    "section": "T-test",
+    "text": "T-test\nCompare two means\nExample: weight gain in lambs for two different diets"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#anova",
+    "href": "enough-stats-dangerous.html#anova",
+    "title": "Enough stats to be dangerous",
+    "section": "ANOVA",
+    "text": "ANOVA\nCompare three or more means\nExample: Cost on gumtree for breeds of dogs."
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#chi-square",
+    "href": "enough-stats-dangerous.html#chi-square",
+    "title": "Enough stats to be dangerous",
+    "section": "Chi-square",
+    "text": "Chi-square\nAre two categorical variables related\nExample: Does breed of a dog have an effect on hepatic cancers that are encountered."
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#regression",
+    "href": "enough-stats-dangerous.html#regression",
+    "title": "Enough stats to be dangerous",
+    "section": "Regression",
+    "text": "Regression\nAre two numerical variables related\nExample: What is the relationship between dog weight and chemotherapy dose?"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#logistic-regression",
+    "href": "enough-stats-dangerous.html#logistic-regression",
+    "title": "Enough stats to be dangerous",
+    "section": "Logistic regression",
+    "text": "Logistic regression\nPredict an outcome that is success or failure.\nExample: Does surgical margins effect relapse of gingival melanomas?"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#scenario-1",
+    "href": "enough-stats-dangerous.html#scenario-1",
+    "title": "Enough stats to be dangerous",
+    "section": "Scenario 1",
+    "text": "Scenario 1\nA veterinary hospital wants to know what predicts whether a dog develops a surgical site infection (SSI) within 14 days of orthopedic surgery. They have measured the duration of surgery in minutes."
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#scenario-2",
+    "href": "enough-stats-dangerous.html#scenario-2",
+    "title": "Enough stats to be dangerous",
+    "section": "Scenario 2",
+    "text": "Scenario 2\nA feline-only practice wants to compare mean time to full recovery (extubation to standing/walking, in minutes) after ovariohysterectomy across three anesthetic protocols.\n\nProtocol A: Dexmedetomidine–ketamine–butorphanol\nProtocol B: Alfaxalone–midazolam\nProtocol C: Propofol–isoflurane maintenance"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#have-a-good-spreadsheets",
+    "href": "enough-stats-dangerous.html#have-a-good-spreadsheets",
+    "title": "Enough stats to be dangerous",
+    "section": "Have a good spreadsheets",
+    "text": "Have a good spreadsheets\n\n\n\n\n\n\n\nTake home message\n\n\nCollect your data well, it makes the analysis easier."
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#what-i-dream-off",
+    "href": "enough-stats-dangerous.html#what-i-dream-off",
+    "title": "Enough stats to be dangerous",
+    "section": "What I dream off",
+    "text": "What I dream off\n\n\n\nClear headers\nEach row is a subject\nEach column is a variable\nConsistent values\nMissing is just blank\n\n\n\n\n\n2026-08-19-lung.xlsx"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#my-nightmare",
+    "href": "enough-stats-dangerous.html#my-nightmare",
+    "title": "Enough stats to be dangerous",
+    "section": "My nightmare",
+    "text": "My nightmare\n\nlung data final version 2a - note some lung measures are litres.xlsx"
+  },
+  {
+    "objectID": "enough-stats-dangerous.html#have-a-clear-research-question",
+    "href": "enough-stats-dangerous.html#have-a-clear-research-question",
+    "title": "Enough stats to be dangerous",
+    "section": "Have a clear research question",
+    "text": "Have a clear research question\n\n\n\n\n\n\nTake home message\n\n\nThink carefully about your research question and how you can convert this into stats-lingo."
+  }
+]
